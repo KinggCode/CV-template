@@ -1,0 +1,159 @@
+/* Fonts Library */
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* General CSS  */
+body{
+    background-image: url("https://images.pexels.com/photos/2539658/pexels-photo-2539658.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* Form CSS  */
+.formBck{
+    margin-top: 17%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    width: 60%;
+    position: relative;
+    z-index: inherit;
+}
+
+.formBck h1{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+.form-control{
+    width: 100%;
+}
+
+
+input[type="submit"]{
+    width: 100%;
+}
+
+div#box{
+    margin-top: 90px;
+    margin-left: 10%;
+}
+
+
+/* CV Section */
+ .card{
+     width: 80%;
+ }
+
+ #carbod img{
+     box-shadow: 20%;
+     
+ }
+
+ /* PDF-CV CSS */
+ #pdf-temp{
+     color: white;
+     font-family: 'Hepta Slab', serif;
+     margin-top: 5%;
+ }
+
+ #digit-temp h3{
+     color: white;
+     font-family: 'Hepta Slab', serif;
+     margin-top: 2%;
+     margin-bottom: 3%;
+     
+ }
+
+.box img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+
+/* Digital CV CSS */
+ div.line-design{
+    /* border: 14px solid black; */
+    background: url(/Images/midline.jpeg);
+    width: 1.2rem;
+    height: 99%;
+    
+}
+
+#mid-line{
+    background: url(/Images/midline.jpeg);
+    width: 0.4rem;
+    height: 95%;
+    margin-top: 2.5rem;;
+}
+.dbox{
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+
+#section1{
+    padding-top: 2.1rem;
+    margin-left: 0.6rem;
+}
+
+.user-image img{
+    margin-left: -10%;
+    width: 100%;
+    height: 15rem;
+}
+
+.career-details,.summary-sec,.skills-sec, .lang-sec, .interest-sec{
+    margin-top: 0.7rem;
+    margin-left: -10%;
+}
+
+
+.user-details{
+    margin-top: 10%;
+}
+
+.user-details p{
+    margin-top: -6%;
+}
+
+.sum-story{
+    margin-top: 7%;
+    padding-left: 3%;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.skills,.lang,.interest{
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+#sectiontwo{
+    margin-top: 2rem;
+}
+
+.experience-sec, .education-sec, .awards-sec{
+    margin-left: -13%;
+}
+
+.experience-sec h2 , .education-sec h2 , .awards-sec h2{
+    color: yellowgreen;
+}
+
+#accom ul, #missions ul{
+    margin-top: -1%;
+}
+
+#ex-two, #ex-three{
+    margin-top: 5%;
+}
+
+h1#surname{
+    margin-top: -2%;
+}
